@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.5)),
+    url("https://www.nerolac.com/sites/default/files/styles/1920x548/public/modern-grey-house-exterior-colour-schemes-for-your-exterior-walls-nerolac-main.jpg.webp?itok=KmfKfAW6");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 50vw;
+  font-weight: 300;
+  font-size: 3vw;
+  line-height: 1.5;
+  color: rgb(235, 235, 235);
+}
+
+.featured-listings-title {
+  display: flex;
+  justify-content: center;
+}

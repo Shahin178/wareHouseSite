@@ -1,0 +1,68 @@
+.not-found {
+  color: red;
+  font-size: 18px;
+}
+
+.detail-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #0077cc;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 18px;
+}
+
+.detail-heading {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.warehouse-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.warehouse-image {
+  flex: 1;
+  text-align: center;
+}
+
+.warehouse-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.warehouse-details {
+  flex: 2;
+  text-align: left;
+  padding: 20px;
+  padding-left: 5rem;
+}
+
+.edit-button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 10px; /* Add margin to separate buttons vertically */
+  font-size: 12px;
+  display: block;
+  margin-left: 260px;
+  margin-top: -20px;
+}
+
+.edit-button:hover {
+  background-color: #0055aa;
+}

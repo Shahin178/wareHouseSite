@@ -1,0 +1,11 @@
+.main {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}

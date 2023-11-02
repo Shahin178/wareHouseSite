@@ -1,0 +1,50 @@
+/* searchComponent.css */
+
+/* Container for the search component */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Search input */
+.search-container input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Search button */
+.search-button {
+  background-color: #007bff; /* Blue color, you can change it */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+/* Search button hover effect */
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Reset button */
+.reset-button {
+  background-color: #ccc; /* Gray color, you can change it */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Reset button hover effect */
+.reset-button:hover {
+  background-color: #999; /* Slightly darker gray on hover */
+}

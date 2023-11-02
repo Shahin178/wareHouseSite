@@ -1,0 +1,40 @@
+/* FilterComponent.css */
+
+/* Container for the filter component */
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Filter select dropdowns */
+.filter-container select {
+  padding: 8px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Reset Button */
+.reset-button {
+  background-color: #007bff; /* Blue color, you can change it */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 2rem;
+}
+
+/* Reset Button Hover Effect */
+.reset-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Filter Label (optional) */
+.filter-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
